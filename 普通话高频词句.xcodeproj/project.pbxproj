@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9330A1531864B9B700256B7A /* DoubleTapShowItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9330A1521864B9B700256B7A /* DoubleTapShowItemViewController.m */; };
+		9330A15618653AD100256B7A /* TopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9330A15518653AD100256B7A /* TopBarView.m */; };
+		938784AB186683410021AB15 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938784AA186683410021AB15 /* CollectionViewController.m */; };
+		938FDE1418632AE8003ECD4F /* IISideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938FDE0F18632AE8003ECD4F /* IISideController.m */; };
+		938FDE1518632AE8003ECD4F /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938FDE1118632AE8003ECD4F /* IIViewDeckController.m */; };
+		938FDE1618632AE8003ECD4F /* IIWrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938FDE1318632AE8003ECD4F /* IIWrapController.m */; };
+		938FDE1918632CA9003ECD4F /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938FDE1818632CA9003ECD4F /* LeftViewController.m */; };
 		939565C01861676300DF8554 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939565BF1861676300DF8554 /* Foundation.framework */; };
 		939565C21861676300DF8554 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939565C11861676300DF8554 /* CoreGraphics.framework */; };
 		939565C41861676300DF8554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939565C31861676300DF8554 /* UIKit.framework */; };
@@ -19,6 +26,20 @@
 		939565DB1861676300DF8554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939565C31861676300DF8554 /* UIKit.framework */; };
 		939565E31861676300DF8554 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 939565E11861676300DF8554 /* InfoPlist.strings */; };
 		939565E51861676300DF8554 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 939565E41861676300DF8554 /* _______Tests.m */; };
+		939565FA18617BF600DF8554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939565F918617BF600DF8554 /* Main.storyboard */; };
+		93956603186189EA00DF8554 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93956602186189EA00DF8554 /* iflyMSC.framework */; };
+		9395660518618A1C00DF8554 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9395660418618A1C00DF8554 /* AudioToolbox.framework */; };
+		9395660818618F9000DF8554 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9395660718618F9000DF8554 /* CFNetwork.framework */; };
+		9395660A18618FA600DF8554 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9395660918618FA600DF8554 /* SystemConfiguration.framework */; };
+		939F44851866B39A00EE65C8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939F44841866B39A00EE65C8 /* MessageUI.framework */; };
+		939F449C1867053300EE65C8 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 939F44991867053300EE65C8 /* Icon-72.png */; };
+		939F449D1867053300EE65C8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 939F449A1867053300EE65C8 /* Icon.png */; };
+		939F449E1867053300EE65C8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 939F449B1867053300EE65C8 /* Icon@2x.png */; };
+		93A2928118643EC100D593A2 /* IBActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A2928018643EC100D593A2 /* IBActionSheet.m */; };
+		93A29284186445A700D593A2 /* CollectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A29283186445A700D593A2 /* CollectManager.m */; };
+		93A6FCB61865850000EF9AB6 /* DataYearSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A6FCB51865850000EF9AB6 /* DataYearSelectViewController.m */; };
+		93A6FCBA1865B1F700EF9AB6 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A6FCB91865B1F700EF9AB6 /* DataManager.m */; };
+		93A6FCBD1865C0AE00EF9AB6 /* MainDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A6FCBC1865C0AE00EF9AB6 /* MainDataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +53,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9330A1511864B9B700256B7A /* DoubleTapShowItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTapShowItemViewController.h; sourceTree = "<group>"; };
+		9330A1521864B9B700256B7A /* DoubleTapShowItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTapShowItemViewController.m; sourceTree = "<group>"; };
+		9330A15418653AD100256B7A /* TopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBarView.h; sourceTree = "<group>"; };
+		9330A15518653AD100256B7A /* TopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBarView.m; sourceTree = "<group>"; };
+		938784A9186683410021AB15 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		938784AA186683410021AB15 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		938FDE0E18632AE8003ECD4F /* IISideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IISideController.h; sourceTree = "<group>"; };
+		938FDE0F18632AE8003ECD4F /* IISideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IISideController.m; sourceTree = "<group>"; };
+		938FDE1018632AE8003ECD4F /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
+		938FDE1118632AE8003ECD4F /* IIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIViewDeckController.m; sourceTree = "<group>"; };
+		938FDE1218632AE8003ECD4F /* IIWrapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIWrapController.h; sourceTree = "<group>"; };
+		938FDE1318632AE8003ECD4F /* IIWrapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIWrapController.m; sourceTree = "<group>"; };
+		938FDE1718632CA9003ECD4F /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		938FDE1818632CA9003ECD4F /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		939565BC1861676300DF8554 /* 普通话高频词句.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "普通话高频词句.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		939565BF1861676300DF8554 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		939565C11861676300DF8554 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +83,26 @@
 		939565E01861676300DF8554 /* 普通话高频词句Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "普通话高频词句Tests-Info.plist"; sourceTree = "<group>"; };
 		939565E21861676300DF8554 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		939565E41861676300DF8554 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		939565F918617BF600DF8554 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		93956602186189EA00DF8554 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		9395660418618A1C00DF8554 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9395660718618F9000DF8554 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9395660918618FA600DF8554 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		939F44841866B39A00EE65C8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		939F44991867053300EE65C8 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		939F449A1867053300EE65C8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		939F449B1867053300EE65C8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		93A2927F18643EC100D593A2 /* IBActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBActionSheet.h; sourceTree = "<group>"; };
+		93A2928018643EC100D593A2 /* IBActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBActionSheet.m; sourceTree = "<group>"; };
+		93A29282186445A700D593A2 /* CollectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectManager.h; sourceTree = "<group>"; };
+		93A29283186445A700D593A2 /* CollectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectManager.m; sourceTree = "<group>"; };
+		93A6FCB41865850000EF9AB6 /* DataYearSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataYearSelectViewController.h; sourceTree = "<group>"; };
+		93A6FCB51865850000EF9AB6 /* DataYearSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataYearSelectViewController.m; sourceTree = "<group>"; };
+		93A6FCB71865AD7F00EF9AB6 /* AppData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
+		93A6FCB81865B1F700EF9AB6 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		93A6FCB91865B1F700EF9AB6 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		93A6FCBB1865C0AE00EF9AB6 /* MainDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainDataViewController.h; sourceTree = "<group>"; };
+		93A6FCBC1865C0AE00EF9AB6 /* MainDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainDataViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +110,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939F44851866B39A00EE65C8 /* MessageUI.framework in Frameworks */,
+				9395660A18618FA600DF8554 /* SystemConfiguration.framework in Frameworks */,
+				9395660818618F9000DF8554 /* CFNetwork.framework in Frameworks */,
+				9395660518618A1C00DF8554 /* AudioToolbox.framework in Frameworks */,
+				93956603186189EA00DF8554 /* iflyMSC.framework in Frameworks */,
 				939565C21861676300DF8554 /* CoreGraphics.framework in Frameworks */,
 				939565C41861676300DF8554 /* UIKit.framework in Frameworks */,
 				939565C01861676300DF8554 /* Foundation.framework in Frameworks */,
@@ -74,6 +134,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		938FDE0C18632ADB003ECD4F /* 3rd lib */ = {
+			isa = PBXGroup;
+			children = (
+				93A2927E18643EB700D593A2 /* IBActionSheet */,
+				938FDE0D18632AE8003ECD4F /* ViewDeck */,
+			);
+			name = "3rd lib";
+			sourceTree = "<group>";
+		};
+		938FDE0D18632AE8003ECD4F /* ViewDeck */ = {
+			isa = PBXGroup;
+			children = (
+				938FDE0E18632AE8003ECD4F /* IISideController.h */,
+				938FDE0F18632AE8003ECD4F /* IISideController.m */,
+				938FDE1018632AE8003ECD4F /* IIViewDeckController.h */,
+				938FDE1118632AE8003ECD4F /* IIViewDeckController.m */,
+				938FDE1218632AE8003ECD4F /* IIWrapController.h */,
+				938FDE1318632AE8003ECD4F /* IIWrapController.m */,
+			);
+			path = ViewDeck;
+			sourceTree = "<group>";
+		};
 		939565B31861676300DF8554 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +178,11 @@
 		939565BE1861676300DF8554 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				939F44841866B39A00EE65C8 /* MessageUI.framework */,
+				9395660918618FA600DF8554 /* SystemConfiguration.framework */,
+				9395660718618F9000DF8554 /* CFNetwork.framework */,
+				9395660418618A1C00DF8554 /* AudioToolbox.framework */,
+				93956602186189EA00DF8554 /* iflyMSC.framework */,
 				939565BF1861676300DF8554 /* Foundation.framework */,
 				939565C11861676300DF8554 /* CoreGraphics.framework */,
 				939565C31861676300DF8554 /* UIKit.framework */,
@@ -107,8 +194,12 @@
 		939565C51861676300DF8554 /* 普通话高频词句 */ = {
 			isa = PBXGroup;
 			children = (
-				939565CE1861676300DF8554 /* AppDelegate.h */,
-				939565CF1861676300DF8554 /* AppDelegate.m */,
+				939F4486186701D100EE65C8 /* resources */,
+				938FDE0C18632ADB003ECD4F /* 3rd lib */,
+				939565FB18617E6700DF8554 /* controllers */,
+				939565F818617BEA00DF8554 /* views */,
+				939565F218616CA000DF8554 /* assets */,
+				939565EE1861678100DF8554 /* helpers */,
 				939565D11861676300DF8554 /* Images.xcassets */,
 				939565C61861676300DF8554 /* Supporting Files */,
 			);
@@ -118,6 +209,8 @@
 		939565C61861676300DF8554 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				939565CE1861676300DF8554 /* AppDelegate.h */,
+				939565CF1861676300DF8554 /* AppDelegate.m */,
 				939565C71861676300DF8554 /* 普通话高频词句-Info.plist */,
 				939565C81861676300DF8554 /* InfoPlist.strings */,
 				939565CB1861676300DF8554 /* main.m */,
@@ -142,6 +235,71 @@
 				939565E11861676300DF8554 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		939565EE1861678100DF8554 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				93A29282186445A700D593A2 /* CollectManager.h */,
+				93A29283186445A700D593A2 /* CollectManager.m */,
+				93A6FCB81865B1F700EF9AB6 /* DataManager.h */,
+				93A6FCB91865B1F700EF9AB6 /* DataManager.m */,
+			);
+			name = helpers;
+			sourceTree = "<group>";
+		};
+		939565F218616CA000DF8554 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				93A6FCB71865AD7F00EF9AB6 /* AppData.h */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		939565F818617BEA00DF8554 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				939565F918617BF600DF8554 /* Main.storyboard */,
+				9330A15418653AD100256B7A /* TopBarView.h */,
+				9330A15518653AD100256B7A /* TopBarView.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		939565FB18617E6700DF8554 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				938FDE1718632CA9003ECD4F /* LeftViewController.h */,
+				938FDE1818632CA9003ECD4F /* LeftViewController.m */,
+				9330A1511864B9B700256B7A /* DoubleTapShowItemViewController.h */,
+				9330A1521864B9B700256B7A /* DoubleTapShowItemViewController.m */,
+				93A6FCB41865850000EF9AB6 /* DataYearSelectViewController.h */,
+				93A6FCB51865850000EF9AB6 /* DataYearSelectViewController.m */,
+				93A6FCBB1865C0AE00EF9AB6 /* MainDataViewController.h */,
+				93A6FCBC1865C0AE00EF9AB6 /* MainDataViewController.m */,
+				938784A9186683410021AB15 /* CollectionViewController.h */,
+				938784AA186683410021AB15 /* CollectionViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		939F4486186701D100EE65C8 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				939F44991867053300EE65C8 /* Icon-72.png */,
+				939F449A1867053300EE65C8 /* Icon.png */,
+				939F449B1867053300EE65C8 /* Icon@2x.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		93A2927E18643EB700D593A2 /* IBActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				93A2927F18643EC100D593A2 /* IBActionSheet.h */,
+				93A2928018643EC100D593A2 /* IBActionSheet.m */,
+			);
+			name = IBActionSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +377,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939565FA18617BF600DF8554 /* Main.storyboard in Resources */,
+				939F449E1867053300EE65C8 /* Icon@2x.png in Resources */,
+				939F449C1867053300EE65C8 /* Icon-72.png in Resources */,
+				939F449D1867053300EE65C8 /* Icon.png in Resources */,
 				939565CA1861676300DF8554 /* InfoPlist.strings in Resources */,
 				939565D21861676300DF8554 /* Images.xcassets in Resources */,
 			);
@@ -239,7 +401,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A29284186445A700D593A2 /* CollectManager.m in Sources */,
+				938FDE1418632AE8003ECD4F /* IISideController.m in Sources */,
+				938FDE1618632AE8003ECD4F /* IIWrapController.m in Sources */,
+				9330A15618653AD100256B7A /* TopBarView.m in Sources */,
+				93A2928118643EC100D593A2 /* IBActionSheet.m in Sources */,
+				93A6FCB61865850000EF9AB6 /* DataYearSelectViewController.m in Sources */,
 				939565D01861676300DF8554 /* AppDelegate.m in Sources */,
+				9330A1531864B9B700256B7A /* DoubleTapShowItemViewController.m in Sources */,
+				938784AB186683410021AB15 /* CollectionViewController.m in Sources */,
+				938FDE1518632AE8003ECD4F /* IIViewDeckController.m in Sources */,
+				93A6FCBD1865C0AE00EF9AB6 /* MainDataViewController.m in Sources */,
+				938FDE1918632CA9003ECD4F /* LeftViewController.m in Sources */,
+				93A6FCBA1865B1F700EF9AB6 /* DataManager.m in Sources */,
 				939565CC1861676300DF8554 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +533,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dee/Documents/Xcode/普通话高频词句",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "普通话高频词句/普通话高频词句-Prefix.pch";
 				INFOPLIST_FILE = "普通话高频词句/普通话高频词句-Info.plist";
@@ -372,6 +550,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dee/Documents/Xcode/普通话高频词句",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "普通话高频词句/普通话高频词句-Prefix.pch";
 				INFOPLIST_FILE = "普通话高频词句/普通话高频词句-Info.plist";
@@ -441,6 +623,7 @@
 				939565EA1861676300DF8554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		939565EB1861676300DF8554 /* Build configuration list for PBXNativeTarget "普通话高频词句Tests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +632,7 @@
 				939565ED1861676300DF8554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
