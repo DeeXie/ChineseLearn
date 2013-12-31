@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
+
     //set up the spell label
     NSString *itemString = self.itemString ;
     NSMutableString *buffer = [itemString mutableCopy] ;
@@ -36,6 +36,7 @@
 }
 
 -(void ) singleTapAction :(UIGestureRecognizer *) gesture {
+    
     [self dismissViewControllerAnimated:YES completion:nil ] ;
 }
 

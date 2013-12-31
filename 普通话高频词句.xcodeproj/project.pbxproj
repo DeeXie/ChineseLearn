@@ -39,6 +39,7 @@
 		93A6FCB61865850000EF9AB6 /* DataYearSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A6FCB51865850000EF9AB6 /* DataYearSelectViewController.m */; };
 		93A6FCBA1865B1F700EF9AB6 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A6FCB91865B1F700EF9AB6 /* DataManager.m */; };
 		93A6FCBD1865C0AE00EF9AB6 /* MainDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A6FCBC1865C0AE00EF9AB6 /* MainDataViewController.m */; };
+		93E1981C187300EB0056B392 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E1981B187300EB0056B392 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		93A6FCB91865B1F700EF9AB6 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 		93A6FCBB1865C0AE00EF9AB6 /* MainDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainDataViewController.h; sourceTree = "<group>"; };
 		93A6FCBC1865C0AE00EF9AB6 /* MainDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainDataViewController.m; sourceTree = "<group>"; };
+		93E1981B187300EB0056B392 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E1981C187300EB0056B392 /* AVFoundation.framework in Frameworks */,
 				939F44851866B39A00EE65C8 /* MessageUI.framework in Frameworks */,
 				9395660A18618FA600DF8554 /* SystemConfiguration.framework in Frameworks */,
 				9395660818618F9000DF8554 /* CFNetwork.framework in Frameworks */,
@@ -176,6 +179,7 @@
 		939565BE1861676300DF8554 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93E1981B187300EB0056B392 /* AVFoundation.framework */,
 				939F44841866B39A00EE65C8 /* MessageUI.framework */,
 				9395660918618FA600DF8554 /* SystemConfiguration.framework */,
 				9395660718618F9000DF8554 /* CFNetwork.framework */,

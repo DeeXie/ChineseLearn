@@ -9,6 +9,7 @@
 #import "MainDataViewController.h"
 #import "CollectManager.h"
 #import "DoubleTapShowItemViewController.h"
+#import <AVFoundation/AVSpeechSynthesis.h>
 
 @interface MainDataViewController ()
 {
@@ -111,6 +112,15 @@
     UIColor *oringinalColor = cell.backgroundColor;
     //if the double taps can locate a cell
     if (cell) {
+        UILabel *spellLabel = (UILabel *) [cell viewWithTag:1] ;
+        AVSpeechSynthesisVoice *voice = [AVSpeechSynthesisVoice voiceWithLanguage:@"zh-CN"  ];
+        
+        AVSpeechSynthesizer *av = [[AVSpeechSynthesizer alloc]init];
+        AVSpeechUtterance *utterance = [[AVSpeechUtterance alloc]initWithString:spellLabel.text]; //需要转换的文本
+        utterance.voice = voice ;
+        utterance.rate = 0.2 ;
+        [av speakUtterance:utterance];
+        
         cell.backgroundColor = kColorCellSelectedColor ;
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             [NSThread sleepForTimeInterval:0.5f];
