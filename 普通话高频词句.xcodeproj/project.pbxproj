@@ -27,7 +27,6 @@
 		939565E31861676300DF8554 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 939565E11861676300DF8554 /* InfoPlist.strings */; };
 		939565E51861676300DF8554 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 939565E41861676300DF8554 /* _______Tests.m */; };
 		939565FA18617BF600DF8554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939565F918617BF600DF8554 /* Main.storyboard */; };
-		93956603186189EA00DF8554 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93956602186189EA00DF8554 /* iflyMSC.framework */; };
 		9395660518618A1C00DF8554 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9395660418618A1C00DF8554 /* AudioToolbox.framework */; };
 		9395660818618F9000DF8554 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9395660718618F9000DF8554 /* CFNetwork.framework */; };
 		9395660A18618FA600DF8554 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9395660918618FA600DF8554 /* SystemConfiguration.framework */; };
@@ -114,7 +113,6 @@
 				9395660A18618FA600DF8554 /* SystemConfiguration.framework in Frameworks */,
 				9395660818618F9000DF8554 /* CFNetwork.framework in Frameworks */,
 				9395660518618A1C00DF8554 /* AudioToolbox.framework in Frameworks */,
-				93956603186189EA00DF8554 /* iflyMSC.framework in Frameworks */,
 				939565C21861676300DF8554 /* CoreGraphics.framework in Frameworks */,
 				939565C41861676300DF8554 /* UIKit.framework in Frameworks */,
 				939565C01861676300DF8554 /* Foundation.framework in Frameworks */,

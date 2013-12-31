@@ -46,8 +46,10 @@
         titleLabel.text = @"" ;
         cell.userInteractionEnabled = NO ;
     }
-    else if (indexPath.row == 4)
+    else if (indexPath.row == 4) {
         titleLabel.text = @"反馈" ;
+        cell.selectionStyle = UITableViewCellSelectionStyleNone ;
+    }
     
     cell.layer.cornerRadius = 22.0f;
     return cell ;
