@@ -26,9 +26,14 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testExampleFailure
 {
-    
+    XCTFail(@"just a fail test....");
+}
+
+- (void)testExampleSuccess
+{
+    XCTAssertEqual(1, 1, @"just a success test..");
 }
 
 @end
