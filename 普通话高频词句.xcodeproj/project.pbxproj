@@ -84,7 +84,6 @@
 		939565E21861676300DF8554 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		939565E41861676300DF8554 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
 		939565F918617BF600DF8554 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		93956602186189EA00DF8554 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		9395660418618A1C00DF8554 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		9395660718618F9000DF8554 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		9395660918618FA600DF8554 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -184,7 +183,6 @@
 				9395660918618FA600DF8554 /* SystemConfiguration.framework */,
 				9395660718618F9000DF8554 /* CFNetwork.framework */,
 				9395660418618A1C00DF8554 /* AudioToolbox.framework */,
-				93956602186189EA00DF8554 /* iflyMSC.framework */,
 				939565BF1861676300DF8554 /* Foundation.framework */,
 				939565C11861676300DF8554 /* CoreGraphics.framework */,
 				939565C31861676300DF8554 /* UIKit.framework */,
