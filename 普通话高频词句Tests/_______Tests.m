@@ -36,4 +36,9 @@
     XCTAssertEqual(1, 1, @"just a success test..");
 }
 
+- (void)testExample3
+{
+    XCTAssertEqual(1, 1, @"just a success test..");
+}
+
 @end
