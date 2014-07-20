@@ -28,7 +28,7 @@
 
 - (void)testExampleFailure
 {
-    XCTFail(@"just a fail test....");
+//    XCTFail(@"just a fail test....");
 }
 
 - (void)testExampleSuccess
